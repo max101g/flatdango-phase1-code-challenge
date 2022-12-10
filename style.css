@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: auto;
+}
+h1 {
+    color: gold;
+    font-size: 190%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+};
+#mainpge {
+    background-color: aquamarine;
+}
+#movielist {
+    float: left;
+    width: 50%;
+    /* background-color: darkgray; */
+    height: 755px;
+}
+#buyticket {
+    float: right;
+    width: 50%;
+    
+}
+#btn {
+    background-color: crimson;
+    color: aliceblue;
+    width: 100px;
+    height: 60px;
+    margin-left: 43%;
+}
+h2 {
+    margin-left: 42%;
+    font-weight: bold;
+    font-size: 150%;
+    color: gold;
+}
+.card-text {
+    color: white;
+    font-size: 150%;
+
+}
+.tickets-available {
+    margin-left: 38%;
+    color: gold;
+    font-size: 150%;
+}
+h3 {
+    color: gold;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 250%;
+}
+.cardmb-3 {
+    margin-top: 10%;
+}
