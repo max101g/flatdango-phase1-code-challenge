@@ -44,9 +44,10 @@ function myMoviesList (movies) {
             let newTickets = document.querySelector ('#ticket-numbers')
             let i = (-- movies.tickets)
             newTickets.innerHTML = i
-            if (newTickets === 0){
-                //return ('Your Fav Movie is Sold Out !!!')
-                newTickets.innerHTML = ('Your Fav Movie is Sold Out !!!')
+            if (i < 0){
+                return (newTickets.innerHTML = 'Sold Out')
+            } else if (i <= 0) {
+                alert ('Sorry, Your Fav Movie is Sold Out')
             }
         })
         //console.log (i)
