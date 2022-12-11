@@ -41,11 +41,13 @@ function myMoviesList (movies) {
         const buyTicketBtn = document.querySelector ('#btn')
         buyTicketBtn.addEventListener ('click', (e) => {
             e.preventDefault ()
-            let i = movies.tickets 
-            if (i > 0) {
-                console.log ( --i)
+            let newTickets = document.querySelector ('#ticket-numbers')
+            let i = (-- movies.tickets)
+            newTickets.innerHTML = i
+            if (newTickets === 0){
+                //return ('Your Fav Movie is Sold Out !!!')
+                newTickets.innerHTML = ('Your Fav Movie is Sold Out !!!')
             }
-            
         })
         //console.log (i)
     })
