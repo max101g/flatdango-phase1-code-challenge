@@ -1,9 +1,68 @@
 {
   "movies": [{
+    "id": "1",
     "name": "Deadpool",
     "time": "1300Hrs",
-    "tockets": 40 ,
-    "poster":"https://media.uiargonaut.com/wp-content/uploads/2016/05/rawrfeb3.jpg",
-    "description": "The Deadpool is a comic superhero movie starring Ryan Reynolds"
-  }]
+    "tickets": 40 ,
+    "poster":"https://i.pinimg.com/originals/a3/31/91/a33191759659b5bb1b636a16f3fbd06a.gif",
+    "description": "Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool. The rogue experiment leaves Deadpool with accelerated healing powers and a twisted sense of humor."
+  },
+  {
+    "id": "2",
+    "name": "The Avengers",
+    "time": "1000Hrs",
+    "tickets": 30 ,
+    "poster":"https://media.tenor.com/atuEM9DqpxkAAAAC/the-avengers-team.gif",
+    "description": "Captain America, the Stark Enterprises created super soldier. Thor, the god of thunder, protector of Earth and his home planet of Asgard, and Loki's brother. Master assassins Hawkeye and Natasha Romanoff. Together they will become a team to take on an attack that will call them to become the greatest of all time."
+  },
+  {
+    "id": "3",
+    "name": "Thor : Love and Thunder",
+    "time": "1400Hrs",
+    "tickets": 30 ,
+    "poster":"https://media.tenor.com/49geRfxnygQAAAAC/got-the-storm-breaker-thor.gif",
+    "description": "Thor: Love and Thunder follows Thor as he attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Foster to stop Gorr the God Butcher from eliminating all gods."
+  },
+  {
+    "id": "4",
+    "name": "Spiderman",
+    "time": "1600Hrs",
+    "tickets": 20 ,
+    "poster":"https://i.pinimg.com/originals/74/68/15/746815b84106bca0762aaceeb3c466fa.gif",
+    "description": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy. Based on Marvel Comics' superhero character, this is a story of Peter Parker who is a nerdy high-schooler."
+  },
+  {
+    "id": "5",
+    "name": "Big Mouth",
+    "time": "2000Hrs",
+    "tickets": 40 ,
+    "poster":"https://media0.giphy.com/media/XJMHNaIKFiIyyf5gtO/giphy.gif",
+    "description": "Teenage friends find their lives upended by the wonders and horrors of puberty in this edgy comedy from real-life pals Nick Kroll and Andrew Goldberg."
+  },
+  {
+    "id": "6",
+    "name": "The Superman",
+    "time": "2200Hrs",
+    "tickets": 30 ,
+    "poster":"https://phoneky.co.uk/thumbs/screensavers/down/fantasy/superman_9mkwzf6q.gif",
+    "description": "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero. Surviving the destruction of the planet Krypton, young Kal-El is sent by his father Jor-El to live among mankind on Earth."
+  },
+  {
+    "id": "7",
+    "name": "Wednesday",
+    "time": "1200Hrs",
+    "tickets": 30 ,
+    "poster":"https://thumbs.gfycat.com/DamagedConcreteIcefish-max-1mb.gif",
+    "description": "Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy."
+  },
+  {
+    "id": "8",
+    "name": "Slumberland",
+    "time": "0800Hrs",
+    "tickets": 20 ,
+    "poster":"https://64.media.tumblr.com/d8ca28beaec5629bd85e9cc12e8935d9/31a58f3349ab5d02-c9/s540x810/f3a2a82e7c61c20247aa53e60e685a49bfbf112a.gif",
+    "description": "A young girl discovers a secret map to the dreamworld of Slumberland, and with the help of an eccentric outlaw, she traverses dreams and flees nightmares, with the hope that she will be able to see her late father again."
+  }
+
+]
 }

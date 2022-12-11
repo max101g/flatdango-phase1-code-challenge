@@ -18,6 +18,9 @@ h1 {
     width: 50%;
     /* background-color: darkgray; */
     height: 755px;
+    text-align: center;
+    font-size: 200%;
+    color: greenyellow;
 }
 #buyticket {
     float: right;
@@ -49,9 +52,9 @@ h2 {
 }
 h3 {
     color: gold;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 10%;
-    font-size: 250%;
+    font-size: 150%;
 }
 .cardmb-3 {
     margin-top: 10%;

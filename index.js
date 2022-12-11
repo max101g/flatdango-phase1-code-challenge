@@ -1,10 +1,7 @@
-// const { header } = require("express/lib/request");
-// const { json } = require("express/lib/response");
-
 // create a DOMContentLoaded event listene
 document.addEventListener ('DOMContentLoaded', ()=> {
     displayMovie ();
-    postMovies ();
+    //postMovies ()
 })
 
 //Create a function for GET fetch
@@ -24,11 +21,15 @@ function favMovies (movies) {
 //Create a function that allows one to display movies on a list
 
 function myMoviesList (movies) {
-    const favouritesList = document.querySelector ('#list')
-    const movieSpan = document.createElement ('span')
-    movieSpan.innerHTML = movies.name
-    favouritesList.appendChild (movieSpan)
-    favouritesList.addEventListener ('click', ()=> {
+    const favouritesList = document.querySelector ('#movielist')
+    const listDiv = document.createElement ('div')
+    listDiv.innerHTML = movies.name
+    favouritesList.appendChild (listDiv)
+    listDiv.style.cursor = 'pointer'
+    listDiv.addEventListener ('click', (e)=> {
+        e.preventDefault ()
+        const cinemaPoster = document.querySelector ('img#image')
+        cinemaPoster.src = movies.poster 
         const cardTitle = document.querySelector ('.card-title')
         cardTitle.innerHTML = movies.name
         const movieDescription = document.querySelector ('.card-text')
@@ -36,27 +37,18 @@ function myMoviesList (movies) {
         const movieTime = document.querySelector ('#movie-time')
         movieTime.innerHTML = movies.time
         const ticketNumbers= document.querySelector ('#ticket-numbers')
-        ticketNumbers.innerHTML = movies.tockets
+        ticketNumbers.innerHTML = movies.tickets
         const buyTicketBtn = document.querySelector ('#btn')
-        buyTicketBtn.addEventListener ('click', ()=> {
-            console.log ('am awsome')
+        buyTicketBtn.addEventListener ('click', (e) => {
+            e.preventDefault ()
+            let i = movies.tickets 
+            if (i > 0) {
+                console.log ( --i)
+            }
+            
         })
+        //console.log (i)
     })
-}
+};
 
-// function postMovies (posted) {
-//     fetch ('http://localhost:3000/movies', {
-//         method: 'POST',
-//         headers: {
-//             'Content-type': 'application/json'
-//         },
-//         body: JSON.stringify {
-//             name: '',
-//             time: '',
-//             tockets: 0,
-//             poster: '',
-//         }
-//     })
-//     .then ((resp)=> resp.json ())
-//     . then (movieData)
-// }
+//const list = document.querySelector ()
